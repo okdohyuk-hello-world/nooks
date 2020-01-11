@@ -1,7 +1,8 @@
 # Usage
 
 ```js
-import useInput from "@nooks/use-input"
+import useInput from "./useinput"
+
 const App = () => {
   const validator = value => !value.includes("@");
   const name = useInput("Mr. ", validator);
